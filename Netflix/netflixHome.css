@@ -1,0 +1,300 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.top{
+    background-position: center;
+    object-fit:cover;
+    background-image:linear-gradient(to bottom, rgb(0, 0, 0), rgba(100, 100, 100, 0), rgba(0, 0, 0)), url(https://assets.nflxext.com/ffe/siteui/vlv3/4da5d2b1-1b22-498d-90c0-4d86701dffcc/98a1cb1e-5a1d-4b98-a46f-995272b632dd/IN-en-20240129-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    height:100vh;
+    width:100vw;
+    background-repeat: no-repeat;
+    position:relative; 
+    overflow:hidden;
+}
+
+.tophead{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width:75%;
+    margin:auto;
+
+}
+.tophead p{
+    color:rgb(229, 9, 20);
+    font-size:xx-large;
+    font-weight:800;
+    margin-top:15px;
+}
+.btnLangDiv{
+    display:flex;
+    gap:20px;
+}
+.btn:hover{
+    cursor:pointer;
+    background-color: rgb(199, 9, 20);
+}
+.btn-language{
+    border:1px solid rgb(162, 162, 162);
+    background:none;
+    height:35px;
+    width:135px;
+    border-radius:4px;
+    margin-top:25px;
+}
+.btn-language select{
+    background:none;
+    color:white;
+    font-weight:bold;
+    border:none;
+}
+.btn-language select option{
+    color:black;
+}
+.btn-signIn{
+    /* appearance:none; */
+    background-color: rgb(229, 9, 20);
+    color:white;
+    height:35px;
+    width:90px;
+    font-weight:bolder;
+    border-radius:4px;
+    margin-top:25px;
+    border:none;
+} 
+.btn-signIn:hover{
+    cursor:pointer;
+    background-color: rgb(199, 9, 20);
+}
+
+.mainHeading{
+    height:100%;
+    width:100%;
+    position:absolute;
+    /* text-align:center; */
+    display:flex; 
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    color:white;
+}
+h1{
+    font-weight:bolder;
+    font-size:3rem;
+}
+.mainHeading h4{
+    /* font-weight:bold; */
+    font-size:1.5rem;
+}
+.mainHeading p{
+    /* font-weight:bold; */
+    font-size:1rem;
+}
+.mainHeading input{
+    background:rgba(40, 40, 40, 0.5);
+    height:55px;
+    width:380px;
+    border:0.5px solid rgb(162, 162, 162);
+    border-radius:4px;
+    color:rgb(219, 219, 219);
+    font-size: large;
+}
+::placeholder{
+    color:rgb(195, 195, 195);
+    font-size: 14px;
+}
+.mainHeading button{
+    background:none;
+    background-color: rgb(229, 9, 20);
+    color:rgb(255, 255, 255);
+    height:55px;
+    width:185px;
+    font-size: larger;
+    font-weight: bolder;
+    border:none;
+    border-radius:4px;
+}
+
+
+.separator{
+    height:8px;
+    width:100vw;
+    background-color:rgb(35, 35, 35);
+}
+
+
+.after-top-1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80vh;
+    width:100vw;
+    padding:180px 180px;
+    background-color: #000000;
+    color:white;
+    font-weight:bolder;
+}
+.tv-1{
+    display:flex;
+    justify-content: center;
+    align-content:center;
+}
+.frame-1-vid-1{
+    position:absolute;
+    margin-top:90px;
+}
+.frame-1-img-1{
+    position:relative;
+}
+
+
+.after-top-2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80vh;
+    width:100vw;
+    padding:180px 180px;
+    background-color: #000000;
+    color:white;
+    font-weight:bolder;
+    position:relative;
+}
+/* .tv-2{
+    position: absolute;
+} */
+.frame-2-vid-2{
+    /*  */
+    background-position: center;
+}
+.downloading{
+    height:100px;
+    width:360px;
+    border:2px solid rgba(128,128,128,0.7);
+    border-radius:15px;
+    padding:10px;
+    display:flex;
+    align-items: center;
+    position:absolute;
+    justify-content: space-around;
+    background-color:black;
+    top:65%;
+    left:19%;
+}
+
+.after-top-3{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80vh;
+    width:100vw;
+    padding:180px 180px;
+    background-color: #000000;
+    color:white;
+    font-weight:bolder;
+}
+.tv-3{
+    display:flex;
+    justify-content: center;
+    align-content:center;
+}
+.frame-3-vid-3{
+    position:absolute;
+    /* margin-top:90px; */
+    transform:scale(85%) translateY(30px);
+}
+.frame-3-img-3{
+    position:relative;
+}
+
+.after-top-4{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80vh;
+    width:100vw;
+    padding:180px 180px;
+    background-color: #000000;
+    color:white;
+    font-weight:bolder;
+}
+
+.before-footer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    /* height:80vh; */
+    width:100vw;
+    padding:50px;
+    background-color: #000000;
+    color:white;
+    font-weight:bolder;
+}
+.before-footer button{
+    width:75vw;
+    height:12vh;
+    background-color: rgb(45, 45, 45);
+    margin: 10px 0px;
+    border:none;
+    color:white;
+    font-size:2rem;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 2rem;
+    transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1) 0s;
+}
+.icon{
+    /* transform:scaleZ(200%); */
+    font-size:4rem;
+    
+}
+.before-footer div p{
+    background-color: rgb(45, 45, 45);
+    width:75vw;
+    font-weight: 400;
+    font-size:x-large;
+    margin-top:-8px;
+    padding:2rem;
+    display:none;
+    /* transition:all 0.25s cubic-bezier(0.5, 0, 0.1, 1) 0s; */
+}
+
+.sign-again span{
+    /* font-weight:bold; */
+    font-size:1rem;
+}
+.sign-again input{
+    background:rgba(40, 40, 40, 0.5);
+    height:55px;
+    width:380px;
+    border:0.5px solid rgb(162, 162, 162);
+    border-radius:4px;
+    color:rgb(219, 219, 219);
+    font-size: large;
+}
+::placeholder{
+    color:rgb(195, 195, 195);
+    font-size: 14px;
+}
+.sign-again button{
+    appearance:none;
+    background:none;
+    background-color: rgb(229, 9, 20);
+    color:rgb(255, 255, 255);
+    height:55px;
+    width:185px;
+    font-size: larger;
+    font-weight: bolder;
+    border:none;
+    border-radius:4px;
+}
+.sign-again-ib{
+    display:flex;
+    gap:10px;
+}
