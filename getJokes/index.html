@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" >
+</head>
+<body onload="getColor()">
+    <section class="container">
+        <div class='button-part'>
+            <button onclick="getColor()" class="button color-button">Get a new background color</button>
+            <span class="loader color-loader" style="display:none;"></span>
+        </div>
+        
+        
+        <div class="main-section">
+            <p class="type">Click to get a Joke</p>
+            <p class="setup"></p>
+            <p class="punch"></p>
+             
+            <div class='button-part'>
+                <button onclick="getJoke()" class="button joke-button">Get a Joke</button>
+                <span class="loader joke-loader" style="display:none;"></span>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
